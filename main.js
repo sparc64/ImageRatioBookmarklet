@@ -7,7 +7,7 @@ javascript:(function(){
 	if (image.complete) {
 		var realHeight = image.naturalHeight;
 		var realWidth = image.naturalWidth;
-		var realRatio = realWidth / realHeight;
+		var realRatio = realHeight / realWidth;
 		
 		if ( realRatio === TARGET_RATIO["horizontal"] || realRatio === TARGET_RATIO["vertical"] ) {
 			alert("PASS");
