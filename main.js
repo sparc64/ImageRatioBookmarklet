@@ -10,10 +10,12 @@ javascript:(function(){
 		var realRatio = realHeight / realWidth;
 		
 		if ( realRatio === TARGET_RATIO["horizontal"] || realRatio === TARGET_RATIO["vertical"] ) {
-			alert("PASS");
+			var resultMessage = "PASS";
 		} else {
-			alert("FAIL");
+			resultMessage = "FAIL";
 		}
+		
+		alert(resultMessage + " " + (realRatio > 1 ? "(3 : 2)" : "(5 : 3)") + "\n\nRatio: " + realRatio + "\nResolution: " + realHeight + " x " + realWidth);
 	} else {
 		console.log("Image error");	
 	}
