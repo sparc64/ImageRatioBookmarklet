@@ -1,6 +1,9 @@
-## Summary:
+---
+name: Task
+about: Standard task
+---
 
-## Goals:
- - [ ] test
+## Description
 
-## Context:
+## Acceptance criteria
+- [ ]
