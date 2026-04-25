@@ -1,9 +1,11 @@
 ---
-name: Task
-about: Standard task
+name: Basic task
+about: Basic task template utilising Summary -> Goals -> Context flow.
 ---
 
-## Description
+## Summary:
 
-## Acceptance criteria
-- [ ]
+## Goals:
+ - [ ] 
+
+## Context:
